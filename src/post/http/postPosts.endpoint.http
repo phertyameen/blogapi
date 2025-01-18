@@ -1,0 +1,16 @@
+POST http://localhost:3000/posts/
+Content-Type: application/json
+{
+    // "id": 2,
+    "postTitle": "Post 28",
+    "authurId": 3,
+    "postType": "page",
+    "postStatus": "scheduled",
+    "content": "This returns the body content of post 28",
+    "imageUrl": "someUrl6",
+    "publishedDate": "2011-05-10",
+    "metaOptions": {
+        "metaValue": "{\"key3\": \"value3\"}"
+        },
+    "tags": [6,7,9]
+}

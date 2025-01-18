@@ -1,0 +1,7 @@
+POST http://localhost:3000/tags/
+Content-Type: application/json
+{
+    "name": "Visual Basic",
+    "slug" : "visual-basic",
+    "description": "Everything Visual Basic"
+}
